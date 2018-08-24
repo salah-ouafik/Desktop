@@ -1,0 +1,24 @@
+{
+  "name": "iota-mqtt",
+  "version": "1.1.0",
+  "description": "IOTA MQTT PoC to retreive and display data from the tangle ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iota",
+    "mqtt"
+  ],
+  "author": "Aarushi Mittal",
+  "dependencies": {
+    "async": "^2.5.0",
+    "detect-installed": "^2.0.4",
+    "express": "~4.15.2",
+    "iota.lib.js": "^0.4.3",
+    "node-cleanup": "^2.1.2",
+    "pug": "~2.0.0-beta11",
+    "url": "^0.11.0"
+  }
+}
